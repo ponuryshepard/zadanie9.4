@@ -1,17 +1,21 @@
-for (var i = 1; i <= 5; i++) {
+function drawTree(x);
+
+	for (var i = 1; i <= x; i++) {
 	
 	
-	var star = "";
+	
+		var star = "";
 	
 	
-	for (var j = 1; j <= i; j++) {
+	
+		for (var j = 1; j <= i; j++) {
 		
-		star = star + "*";
+			star = star + "*";
 	
-	}
+		}
 	
 	
-	console.log(star);
+		console.log(star);
 	
 
 }
